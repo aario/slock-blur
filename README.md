@@ -32,3 +32,10 @@ Running slock
 -------------
 Simply invoke the 'slock' command. To get out of it, enter your password.
 .
+
+THE STACK-BLUR PART OF THE CODE IS BASED ON GREATE WORK BY:
+Mario Klingemann <mario@quasimondo.com>
+Link to the original work:
+http://incubator.quasimondo.com/processing/fast_blur_deluxe.php
+The original source code of stack-blur:
+http://incubator.quasimondo.com/processing/stackblur.pde
