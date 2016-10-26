@@ -12,6 +12,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include <sys/types.h>
+#include <X11/extensions/Xrandr.h>
+#include <X11/keysym.h>
+#include <X11/Xlib.h>
+#include <X11/Xutil.h>
 #include "stackblur.h"
 
 #if HAVE_BSD_AUTH
