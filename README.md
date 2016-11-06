@@ -4,6 +4,7 @@ Super fast and highly stable blur version of the simple screen locker
 utility for X. It takes a screenshot of your desktop and blurs it and
 remain there until you enter your password.
 
+![Screenshot](screenshot.png?raw=true "Fully CPU Based No OpenGL Static Blur Effect")
 
 Requirements
 ------------
