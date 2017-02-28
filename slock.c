@@ -222,8 +222,11 @@ readpw(Display *dpy, const char *pws)
                     blurlockwindow(dpy,locks[screen],blurlevel[INIT]);
 				}
 			}
-		} else for (screen = 0; screen < nscreens; screen++)
-			XRaiseWindow(dpy, locks[screen]->win);
+		} else {
+			for (screen = 0; screen < nscreens; screen++)
+				XRaiseWindow(dpy, locks[screen]->win);
+			XFlush(dpy);
+		}
 	}
 }
 
