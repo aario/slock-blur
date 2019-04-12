@@ -17,7 +17,6 @@ All patches applied:
 - slock-there-can-only-be-one-window-in-the-event.patch
 - Don-t-exit-if-failed-to-adjust-OOM-score.patch
 - Remove-custom-library-search-paths-from-Makefiles.patch
-- series
 - slock-Properly-clear-the-last-entered-character.patch
 - slock-Do-not-drop-privileges.patch
 
