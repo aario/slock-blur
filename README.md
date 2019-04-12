@@ -19,6 +19,7 @@ All patches applied:
 - Remove-custom-library-search-paths-from-Makefiles.patch
 - slock-Properly-clear-the-last-entered-character.patch
 - slock-Do-not-drop-privileges.patch
+Also added man file from debian package.
 
 Requirements
 ------------
