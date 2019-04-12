@@ -6,6 +6,21 @@ remain there until you enter your password.
 
 ![Screenshot](screenshot.png?raw=true "Fully CPU Based No OpenGL Static Blur Effect")
 
+Debian Patches
+--------------
+Applied Debian Sid patches to support PAM instead of using Shadow.
+More information at:
+  https://packages.debian.org/source/sid/suckless-tools
+All patches applied:
+- slock-Fix-resize-with-multiple-monitors-and-portrait-mode.patch
+- Use-PAM-for-authentication.patch
+- slock-there-can-only-be-one-window-in-the-event.patch
+- Don-t-exit-if-failed-to-adjust-OOM-score.patch
+- Remove-custom-library-search-paths-from-Makefiles.patch
+- series
+- slock-Properly-clear-the-last-entered-character.patch
+- slock-Do-not-drop-privileges.patch
+
 Requirements
 ------------
 In order to build slock you need the Xlib header files.

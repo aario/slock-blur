@@ -11,10 +11,10 @@ X11LIB = /usr/X11R6/lib
 
 # includes and libs
 INCS = -I. -I/usr/include -I${X11INC}
-LIBS = -L/usr/lib -lc -lcrypt -L${X11LIB} -lX11 -lXext -lXrandr
+LIBS = -L/usr/lib -lc -lpam -L${X11LIB} -lX11 -lXext -lXrandr
 
 # flags
-CPPFLAGS = -DVERSION=\"${VERSION}\" -DHAVE_SHADOW_H
+CPPFLAGS = -DVERSION=\"${VERSION}\" -DHAVE_PAM
 CFLAGS = -std=c99 -pedantic -Wall -Os ${INCS} ${CPPFLAGS}
 LDFLAGS = -s ${LIBS}
 
